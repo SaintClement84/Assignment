@@ -275,23 +275,7 @@
       </div>
     </main>
 
-    <script>
-      // Render calendar cells to mimic the prototype.
-      const blocked = new Set([2, 8]);
-      const booked = new Set([5, 12]);
-      const cells = document.getElementById('calCells');
-      if (cells) {
-        const total = 15;
-        for (let i=0;i<total;i++){
-          const div = document.createElement('div');
-          div.className = 'cal-cell';
-          if (blocked.has(i)) { div.classList.add('blocked'); div.textContent='Lecture'; }
-          else if (booked.has(i)) { div.classList.add('booked'); div.textContent='Booked'; }
-          else { div.classList.add('available'); div.textContent='Available'; }
-          cells.appendChild(div);
-        }
-      }
-    </script>
+
   </body>
 </html>
 
