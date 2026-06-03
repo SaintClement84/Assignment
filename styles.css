@@ -1323,7 +1323,8 @@ select:focus {
 
 .auth-split {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  /* Give the right form panel slightly more space to prevent squashing */
+  grid-template-columns: 1fr 1.05fr;
   gap: 18px;
 }
 
@@ -1500,4 +1501,3 @@ select:focus {
   margin-top: 4px;
   font-size: 13px;
 }
-
