@@ -127,13 +127,15 @@ body {
   align-items: center;
   border: 1px solid rgba(212, 175, 55, 0.35);
   background: rgba(212, 175, 55, 0.08);
-  padding: 8px 12px;
+  padding: 8px 18px; /* widen containment pill */
   border-radius: 999px;
   color: var(--gold2);
   font-size: 12px;
   letter-spacing: 0.02em;
   font-weight: 600;
+  white-space: nowrap;
 }
+
 
 h2 {
   margin: 14px 0 10px;
