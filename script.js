@@ -165,6 +165,9 @@ function getSession() {
 }
 
 function applySessionToHeader() {
+  // Clear any demo popups if navigating between pages.
+  const popupEl = document.getElementById("demoReminderPopup");
+  if (popupEl) popupEl.remove();
   const session = getSession();
   const user = session?.user;
   if (!user) return;

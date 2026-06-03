@@ -6,7 +6,7 @@
 - [x] Started local static server and verified pages served
 - [x] Merge signup UI into `index.html` (single-page duality)
 
-- [ ] Remove redundant “Back to login” link
-- [ ] Update `script.js` to stop redirecting to `signup.html` and instead show signup section on the same page
-- [ ] Commit and push updated pages
-- [ ] Verify locally (login + signup + demo flow)
+- [ ] Update signup UI layout to match split-screen landing report (left benefits/trust/image + right stepper/form)
+- [ ] Add required CSS classes for signup split layout and stepper spacing
+- [ ] Verify in browser: desktop + mobile responsiveness
+- [ ] Commit and push changes
